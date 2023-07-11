@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="sounds">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fnc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="fnc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Battle theme.wav">
+      <Filter>sounds</Filter>
+    </Media>
+    <Media Include="NPC theme.wav">
+      <Filter>sounds</Filter>
+    </Media>
+    <Media Include="Select.wav">
+      <Filter>sounds</Filter>
+    </Media>
+    <Media Include="Step.wav">
+      <Filter>sounds</Filter>
+    </Media>
+    <Media Include="Theme 1.wav">
+      <Filter>sounds</Filter>
+    </Media>
+    <Media Include="Theme 2.wav">
+      <Filter>sounds</Filter>
+    </Media>
+    <Media Include="Theme 3 long.wav">
+      <Filter>sounds</Filter>
+    </Media>
+    <Media Include="Theme 3.wav">
+      <Filter>sounds</Filter>
+    </Media>
+    <Media Include="x64\Release\sounds\Can%27t open gates.wav">
+      <Filter>sounds</Filter>
+    </Media>
+    <Media Include="x64\Release\sounds\Explosion.wav">
+      <Filter>sounds</Filter>
+    </Media>
+    <Media Include="x64\Release\sounds\Fleshy gate.wav">
+      <Filter>sounds</Filter>
+    </Media>
+    <Media Include="x64\Release\sounds\Flint strike.wav">
+      <Filter>sounds</Filter>
+    </Media>
+    <Media Include="x64\Release\sounds\Fuse.wav">
+      <Filter>sounds</Filter>
+    </Media>
+    <Media Include="x64\Release\sounds\Gate open.wav">
+      <Filter>sounds</Filter>
+    </Media>
+    <Media Include="x64\Release\sounds\Pages.wav">
+      <Filter>sounds</Filter>
+    </Media>
+    <Media Include="x64\Release\sounds\Pile.wav">
+      <Filter>sounds</Filter>
+    </Media>
+    <Media Include="x64\Release\sounds\Theme 4.wav">
+      <Filter>sounds</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
